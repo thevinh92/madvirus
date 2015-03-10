@@ -10,7 +10,7 @@
     <Profile Name="Linux" Platform="Linux" LowQualityCompressionFormat="R8G8B8A8" HighQualityCompressionFormat="R8G8B8A8" />
   </Profiles>
   <Assets>
-    <Asset Path="virut_blue.png" Hash="c968e3182a8da17003660f15edc83923">
+    <Asset Path="virus_1.png" Hash="c968e3182a8da17003660f15edc83923">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -21,7 +21,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_blue_selected.png" Hash="ce652a10d282a2884f122d5f05b31dd2">
+    <Asset Path="virus_1_selected.png" Hash="ce652a10d282a2884f122d5f05b31dd2">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -32,7 +32,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_green.png" Hash="a46ec97ebf22d9ce66b7aa10a47b7078">
+    <Asset Path="virus_2.png" Hash="a46ec97ebf22d9ce66b7aa10a47b7078">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -43,7 +43,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_green_selected.png" Hash="cd97cec4707564ac8c52d65ca66c64b7">
+    <Asset Path="virus_2_selected.png" Hash="cd97cec4707564ac8c52d65ca66c64b7">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -54,7 +54,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_magenta.png" Hash="de5d545cdaa37cc628962bdf6427dd0c">
+    <Asset Path="virus_3.png" Hash="de5d545cdaa37cc628962bdf6427dd0c">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -65,7 +65,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_magenta_selected.png" Hash="82b93cf249243731f58e72cb342cd434">
+    <Asset Path="virus_3_selected.png" Hash="82b93cf249243731f58e72cb342cd434">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -76,7 +76,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_orange.png" Hash="3190beb81845e8534f982f2855257f85">
+    <Asset Path="virus_4.png" Hash="3190beb81845e8534f982f2855257f85">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -87,7 +87,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_orange_selected.png" Hash="501270286c56240520f65cce9766e65d">
+    <Asset Path="virus_4_selected.png" Hash="501270286c56240520f65cce9766e65d">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -98,7 +98,7 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_red.png" Hash="24f250c658d07277a68ad07bd11a0a7e">
+    <Asset Path="virus_5.png" Hash="24f250c658d07277a68ad07bd11a0a7e">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -109,7 +109,29 @@
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
       </ExportProperties>
     </Asset>
-    <Asset Path="virut_red_selected.png" Hash="217b19b06dd7ef3df0d73a363bd72ee6">
+    <Asset Path="virus_5_selected.png" Hash="217b19b06dd7ef3df0d73a363bd72ee6">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="virus_6.png" Hash="780f59004557c353fdecfa43825f653d">
+      <ExportProperties>
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
+        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
+      </ExportProperties>
+    </Asset>
+    <Asset Path="virus_6_selected.png" Hash="38465c8bad651b04a09cc37adabe0b6c">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
@@ -121,28 +143,6 @@
       </ExportProperties>
     </Asset>
     <Asset Path="Virut_Set.png" Hash="c11e120e529b19ed628b18bc1ec5c5a0">
-      <ExportProperties>
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
-      </ExportProperties>
-    </Asset>
-    <Asset Path="virut_yellow.png" Hash="780f59004557c353fdecfa43825f653d">
-      <ExportProperties>
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Metro" Platform="Metro" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="iOS" Platform="iOS" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Android" Platform="Android" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Mac" Platform="Mac" Generate="True" ZipCompress="True" />
-        <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Linux" Platform="Linux" Generate="True" ZipCompress="True" />
-      </ExportProperties>
-    </Asset>
-    <Asset Path="virut_yellow_selected.png" Hash="38465c8bad651b04a09cc37adabe0b6c">
       <ExportProperties>
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="Windows" Platform="Windows" Generate="False" ZipCompress="True" ExportType="WaveEngine.Framework.Graphics.Texture2D" />
         <Export ScalingType="Percentage" ScaledPercentage="100" GenerateMipmaps="False" PremultipliedAlpha="True" AntialiasType="Smooth" OutputFormat="Color32Bit" Profile="WaveEditor.Core.Model.PlatformProfile" Name="WP" Platform="WP" Generate="True" ZipCompress="True" />

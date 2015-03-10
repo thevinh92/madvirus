@@ -24,6 +24,7 @@ namespace TiledMapMadVirusProject
     {
         private TiledMap tileMap;
         private int[,] virusIndexArray;
+        private Entity[,] virusEntityArray;
         protected override void CreateScene()
         {
             //Insert your scene definition here.
@@ -87,15 +88,33 @@ namespace TiledMapMadVirusProject
                  //for(int j = 0; j < arr.GetLength(1); j++)
                 for (int j = 0; j < arr.GetLength(1); j++)
                  {
-                        Entity virus = new Entity("virus" + i.ToString() + j.ToString())
-                         .AddComponent(new Transform2D()
-                         {
-                             X = j * MadVirusConstants.VIRUS_SPRITE_WIDTH * 3 / 4, // Don't ask why, I just found the formula
-                             Y = i * MadVirusConstants.VIRUS_SPRITE_HEIGHT + (j % 2) * 74 / 2 //  Don't ask why, I just found the formula
-                         })
-                        .AddComponent(new Sprite("Content/virut_blue.wpk"))
-                        .AddComponent(new SpriteRenderer(DefaultLayers.Alpha));
-                                                EntityManager.Add(virus);
+                        //Entity virus = new Entity("virus" + i.ToString() + j.ToString())
+                        // .AddComponent(new Transform2D()
+                        // {
+                        //     X = j * MadVirusConstants.VIRUS_SPRITE_WIDTH * 3 / 4, // Don't ask why, I just found the formula
+                        //     Y = i * MadVirusConstants.VIRUS_SPRITE_HEIGHT + (j % 2) * 74 / 2 //  Don't ask why, I just found the formula
+                        // })
+                        //.AddComponent(new Sprite("Content/virus_blue.wpk"))
+                        //.AddComponent(new SpriteRenderer(DefaultLayers.Alpha));
+                        //                        EntityManager.Add(virus);
+                     this.CreateVirus(i, j, arr[i, j]);
+                    //switch (arr[i,j]) 
+                    //{
+                    //    case MadVirusConstants.BLUE_VIRUS_ID:
+                    //        break;
+                    //    case MadVirusConstants.GREEN_VIRUS_ID:
+                    //        break;
+                    //    case MadVirusConstants.MAGENTA_VIRUS_ID:
+                    //        break;
+                    //    case MadVirusConstants.ORANGE_VIRUS_ID:
+                    //        break;
+                    //    case MadVirusConstants.RED_VIRUS_ID:
+                    //        break;
+                    //    case MadVirusConstants.YELLOW_VIRUS_ID:
+                    //        break;
+                    //    default:
+                    //        break;
+                    //}
                 }
         }
     }
@@ -103,13 +122,15 @@ namespace TiledMapMadVirusProject
         private int[,] generateRandomMap(int r, int q)
         {
             int[,] arrayMap = new int[r,q];
+            // Init Array of virus entity
+            virusEntityArray = new Entity[r,q];
             System.Random rnd = new System.Random();
             for (int i = 0; i < r; i++ )
             {
                 for (int j = 0; j< q; j++)
                 {
                     
-                    arrayMap[i, j] = rnd.Next(8);
+                    arrayMap[i, j] = rnd.Next(6);
                 }
             }
             return arrayMap;
@@ -121,9 +142,27 @@ namespace TiledMapMadVirusProject
             {
                 for (int j = 0; j < arr.GetLength(1); j++)
                 {
-                    System.Random rnd = new System.Random();
                     System.Console.WriteLine("Element({0},{1})={2}", i, j, arr[i, j]);
                 }
+            }
+        }
+
+        // Create new Virus and Draw (add to EntityManager)
+        private void CreateVirus(int row, int collumn, int id)
+        {
+            if(id > 0)
+            {
+                String spriteName = "Content/virus_" + id.ToString() + ".wpk";
+                Entity virus = new Entity("virus" + row.ToString() + collumn.ToString())
+                 .AddComponent(new Transform2D()
+                 {
+                     X = collumn * MadVirusConstants.VIRUS_SPRITE_WIDTH * 3 / 4, // Don't ask why, I just found the formula
+                     Y = row * MadVirusConstants.VIRUS_SPRITE_HEIGHT + (collumn % 2) * 74 / 2 //  Don't ask why, I just found the formula
+                 })
+                .AddComponent(new Sprite(spriteName))
+                .AddComponent(new SpriteRenderer(DefaultLayers.Alpha));
+                EntityManager.Add(virus);
+                virusEntityArray[row, collumn] = virus;
             }
         }
         protected override void Start()
