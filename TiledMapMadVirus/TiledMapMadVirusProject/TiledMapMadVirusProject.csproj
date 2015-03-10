@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
+    <Compile Include="MadVirusConstants.cs" />
     <Compile Include="MyScene.cs" />
   </ItemGroup>
   <ItemGroup>
