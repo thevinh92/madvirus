@@ -51,6 +51,8 @@
     <Compile Include="Game.cs" />
     <Compile Include="MadVirusConstants.cs" />
     <Compile Include="MyScene.cs" />
+    <Compile Include="VirusBehavior.cs" />
+    <Compile Include="VirusButtonBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources.weproj" />
