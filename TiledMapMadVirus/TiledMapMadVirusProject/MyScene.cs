@@ -54,8 +54,11 @@ namespace TiledMapMadVirusProject
         }
 
     }
+
+    public delegate void ChangeClickableState();
     public class MyScene : Scene
     {
+        public event ChangeClickableState changeClickableEvent;
         private TiledMap tileMap;
         // virusIndexArray[i,j] = (int) x
         // x =  the color of virus at row i and column j
@@ -279,6 +282,7 @@ namespace TiledMapMadVirusProject
                 // Add event click
                 var virusButtonBehavior = virusButton.FindComponent<VirusButtonBehavior>();
                 virusButtonBehavior.click += this.PlayWithColor;
+                this.changeClickableEvent += virusButtonBehavior.changeClickableEvent;
             }
         }
 
@@ -324,7 +328,7 @@ namespace TiledMapMadVirusProject
         }
         private bool IsCoordValid(int r, int q)
         {
-            if (r >= 0 && r <= row_height && q >= 0 && q < column_width)
+            if (r >= 0 && r < row_height && q >= 0 && q < column_width)
                 return true;
             return false;
         }
@@ -332,33 +336,64 @@ namespace TiledMapMadVirusProject
         private void PlayWithColor(int color)
         {
             System.Console.WriteLine(color.ToString());
+            if(changeClickableEvent != null)
+            {
+                // Because the code to get touch in the VirusButtonBehavior.cs has been called many times
+                // So after click to virus button, I disable them, and after call this method, I enable them. 
+                changeClickableEvent();
+            }
             this.seletedColor = color;
             //  iterate through the selectedVirus
+            
             this.IteratingVirusListWithColor(color, selectedVirusList);
 
             // Update the sprite of virus
-            foreach (var item in selectedVirusList)
+            for (int i = 0; i < virusIndexArray.GetLength(0); i++)
             {
-                this.UpdateSpriteOfVirus(item.R, item.Q, -color);
+                for (int j = 0; j < virusIndexArray.GetLength(1); j++)
+                {
+                    if(virusIndexArray[i,j] < 0)
+                    {
+                        UpdateSpriteOfVirus(i, j, -color);
+                    }
+                }
             }
         }
 
         private void IteratingVirusListWithColor(int color, List<VirusCoord> listVirus)
         {
             List<VirusCoord> tempSelectedVirusList = new List<VirusCoord>();
+
+            // virus that all it's neighbor is selected will not use to find
+            List<VirusCoord> listVirusWillDeleteFromSelected = new List<VirusCoord>();
             foreach (var item in listVirus)
             {
                 List<VirusCoord> neighborList = this.FindNeighbor(item);
-                foreach (var neighbor in neighborList)
+                if(neighborList.Count > 0)
                 {
-                    // if the color is the same with the color we select
-                    if (virusIndexArray[neighbor.R, neighbor.Q] == color)
+                    foreach (var neighbor in neighborList)
                     {
-                        // Choose this virus
-                        tempSelectedVirusList.Add(new VirusCoord(neighbor.R, neighbor.Q));
-                        // Change the color id
-                        virusIndexArray[neighbor.R, neighbor.Q] = -color;
+                        // if the color is the same with the color we select
+                        if (virusIndexArray[neighbor.R, neighbor.Q] == color)
+                        {
+                            // Choose this virus
+                            tempSelectedVirusList.Add(new VirusCoord(neighbor.R, neighbor.Q));
+                            // Change the color id
+                            virusIndexArray[neighbor.R, neighbor.Q] = -color;
+                        }
                     }
+                }
+                else
+                {
+                    listVirusWillDeleteFromSelected.Add(item);
+                }
+            }
+
+            if (listVirusWillDeleteFromSelected.Count > 0)
+            {
+                foreach (var item in listVirusWillDeleteFromSelected)
+                {
+                    selectedVirusList.Remove(item);
                 }
             }
 
@@ -371,7 +406,6 @@ namespace TiledMapMadVirusProject
                 }
                 this.IteratingVirusListWithColor(color, tempSelectedVirusList);
             }
-            else return;
         }
         protected override void Start()
         {

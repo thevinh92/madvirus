@@ -18,6 +18,7 @@ namespace TiledMapMadVirusProject
             colorID = color;
         }
         private int colorID;
+        private bool isClickable = true;
         public int Color { get { return colorID; } }
         protected override void Update(TimeSpan gameTime)
         {
@@ -26,9 +27,18 @@ namespace TiledMapMadVirusProject
             touch.TouchTap += (s, o) =>
             {
                 //System.Console.WriteLine(colorID.ToString());
-                if (click != null)
+                if (click != null && isClickable)
+                {
                     click(colorID);
+                    isClickable = false;
+                }
             };
         }
+
+        public void changeClickableEvent()
+        {
+            isClickable = true;
+        }
+
     }
 }
