@@ -328,7 +328,7 @@ namespace TiledMapMadVirusProject
         }
         private bool IsCoordValid(int r, int q)
         {
-            if (r >= 0 && r < row_height && q >= 0 && q < column_width)
+            if (r >= 0 && r < row_height && q >= 0 && q < column_width && virusIndexArray[r,q] > 0)
                 return true;
             return false;
         }
